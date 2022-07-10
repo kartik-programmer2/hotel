@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    transition: 0.5s ease;
+}
+.btn{
+    transition: 0.5s ease
+}
+span{
+    color: red;
+}
+a
+{
+    text-decoration: none;
+}
+.home{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("../img/bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading h1{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 3px;
+    column-gap: 3px;
+    font-weight: bold;
+}
+.heading p{
+    text-align: center;
+    margin-top: -20px;
+    color: #fff;
+}
+/*start a media quires*/
+@media (max-width:500px) and (min-width:450px) {
+    .heading h1{
+        font-size: 35px;
+    }
+    .heading p{
+        text-align: end;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+}
+@media (max-width:450px) {
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading p{
+        margin-top: -10px;
+        font-size: 10px;
+        }
+    }
+    /* start a room section styling */
+
+    .room{
+        height: 60vh;
+    }
+    .room h1{
+        font-size: 23px;
+        text-align: center;
+    }
+    .rimg img{
+        height: 250px;
+    }
+    .rimg{
+        margin-top: 100px;
+    }
+    /*start a pring section*/
+    .prize{
+        height: 100vh;
+    }
+    @media (max-width:500px) {
+        .n{
+            margin-top: 100%;
+        }
+    }

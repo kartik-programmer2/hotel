@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- end -->
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="boostrap/js/bootstrap.min.js"></script>
+    <title>HOTEL</title>
+</head>
+<body>
+    <section class="home" id="home">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">HOTEL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#room">ROOM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#facility" tabindex="-1" aria-disabled="true">FACILITY</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="prize.html">PRIZE</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="heading">
+        <h1>THE UN<span>KOWN</span></h1>
+        <br>
+        <p>THE UNKOWN HOTEL | IS HAVE PREMIUM ROOM FOR YOU</p>
+        <br>
+        <a href="#">
+        <button class="btn btn-lg btn-outline-primary text-light">BOOK NOW</button>
+    </a>
+</section>
+<!-- END A HOME SECTION -->
+<section class="room" id="room">
+    <h1>THE UN<span>KNOWN</span> ROOM IMAGES   </h1>
+    <div class="rimg">
+        <div class="first ">
+        <img class="rounded float-start img-fluid" src="img/1.jpg" alt="">
+    </div>
+    <div class="secound">
+        <img class="rounded float-end img-fluid" src="img/2.jpg" alt="">
+    </div><div class="third">
+        <img class="rounded mx-auto d-block img-fluid" src="img/3.jpg" alt="">
+    </div>
+    </div>
+</section>
+<!-- start a prizing section -->
+<section class="facility" id="facility">
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+        <div class="w-full sm:p-4 px-4 mb-6">
+          <h1 class="title-font font-medium text-xl mb-2 text-gray-900 n">THE UN<span>KNOWN</span></h1>
+          <div class="leading-relaxed">It's provide Premium room For you.</div>
+        </div>
+        <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+          <h2 class="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+          <p class="leading-relaxed">ROOMS</p>
+        </div>
+        <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+          <h2 class="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+          <p class="leading-relaxed">PRIZES</p>
+        </div>
+        <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+          <h2 class="title-font font-medium text-3xl text-gray-900">35</h2>
+          <p class="leading-relaxed">CAMPONY</p>
+        </div>
+        <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+          <h2 class="title-font font-medium text-3xl text-gray-900">4</h2>
+          <p class="leading-relaxed">COUNTRY</p>
+        </div>
+      </div>
+      <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+        <img class="object-cover object-center w-full h-full" src="img/prize.jpg" alt="stats">
+      </div>
+    </div>
+  </section>
+</section>
+</body>
+</html>
